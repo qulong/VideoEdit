@@ -70,7 +70,7 @@ public class VideoEditActivity extends AppCompatActivity {
     }
 
     private void initData() {
-        path = Environment.getExternalStorageDirectory() + "/2.mp4";
+        path = Environment.getExternalStorageDirectory() + "/Movies/1530689376328.mp4";
         //for video check
         if (!new File(path).exists()) {
             Toast.makeText(this, "视频文件不存在", Toast.LENGTH_LONG).show();
